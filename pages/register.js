@@ -68,7 +68,6 @@ export default function Register() {
             <span className="text-xs">Fisrt Name</span>
             <input 
               type="text" 
-              defaultValue="lala"
               className="w-full p-2 text-sm border border-gray-200 rounded focus:border-[#DA6894]"
               {...register('firstName', { required: true })}
             />
@@ -79,7 +78,6 @@ export default function Register() {
             <span className="text-xs">Last Name</span>
             <input 
               type="text" 
-              defaultValue="lili"
               className="w-full p-2 text-sm border border-gray-200 rounded focus:border-[#DA6894]"
               {...register('lastName', { required: true })}
             />
@@ -90,7 +88,6 @@ export default function Register() {
             <span className="text-xs">Email</span>
             <input 
               type="email" 
-              defaultValue="lala@mail.com"
               className="w-full p-2 text-sm border border-gray-200 rounded focus:border-[#DA6894]"
               {...register('email', { required: true })}
             />

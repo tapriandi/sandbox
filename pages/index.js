@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import styles from '../styles/Home.module.css'
-import Nav from '../component/nav'
+import Nav from '../components/nav'
 
 import { parseCookies } from 'nookies'
 import { useState, useEffect } from 'react'

@@ -15,7 +15,7 @@ export default function nav() {
 
   return (
     <nav className="fixed top-0 left-0 w-full px-[5%] bg-white flex justify-between h-[60px] items-center border border-b border-gray-100">
-      <div className="flex items-center">
+      <div className="flex justify-between items-center">
         <Link href="/" >
           <img src="https://www.halosis.co.id/assets/images/logo2.png" alt="" 
             className="w-[100px] cursor-pointer md:w-[90px]"

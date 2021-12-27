@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import axios from 'axios'
-import Nav from '../component/nav'
+import Nav from '../components/nav'
 
 import { useState, useEffect } from "react"
 
